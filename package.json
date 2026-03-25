@@ -1,12 +1,13 @@
 {
   "name": "stitch",
+  "description": "",
   "module": "./src/main.ts",
   "version": "0.0.1",
   "type": "module",
   "private": true,
   "scripts": {
     "start": "bun run ./src/main.ts",
-    "build": "bun build ./src/main.ts --compile --outfile ./bin/stitch"
+    "build": "NODE_ENV=production bun run ./scripts/build.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"

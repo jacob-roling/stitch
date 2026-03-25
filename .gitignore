@@ -2,4 +2,4 @@
 .direnv
 node_modules
 .env*
-bin
+builds
