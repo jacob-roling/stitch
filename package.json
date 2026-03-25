@@ -3,6 +3,7 @@
   "description": "",
   "module": "./src/main.ts",
   "version": "0.0.1",
+  "license": "MIT",
   "type": "module",
   "private": true,
   "scripts": {
