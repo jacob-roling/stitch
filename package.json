@@ -1,0 +1,21 @@
+{
+  "name": "stitch",
+  "module": "./src/main.ts",
+  "version": "0.0.1",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "bun run ./src/main.ts",
+    "build": "bun build ./src/main.ts --compile --outfile ./bin/stitch"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@effect/platform-bun": "^4.0.0-beta.40",
+    "effect": "^4.0.0-beta.40"
+  }
+}
